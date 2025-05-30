@@ -1,4 +1,4 @@
-# Prometheus-Wildfire-Detection: Verifiable AI (Sample Code)
+# Prometheus-Wildfire-Detection: Verifiable AI 
 
 This repository contains sample code that illustrates the core technical components of **Project Prometheus**, a proposed initiative focused on the development of a **verifiable AI-based wildfire early detection and parametric finance system**. This repository is intended to serve as a reference implementation and blueprint for the initial three-month pilot phase in **British Columbia, Canada**, with the objective of future expansion across North America.
 
