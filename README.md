@@ -29,6 +29,7 @@ This repository provides an overview of:
 └─ scripts
    └─ preprocess_weather_data.py
 
+```
 
 ## Setup and Installation
 
