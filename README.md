@@ -31,3 +31,56 @@ To set up the development environment and execute the sample code, please follow
 ```bash
 git clone https://github.com/[Your-GitHub-Username]/Prometheus-Wildfire-Detection.git
 cd Prometheus-Wildfire-Detection
+```
+### 2. Install project dependencies:
+
+```bash
+pip install -r requirements.txt
+
+```
+---
+## Usage Instruction
+
+
+This repository is modular, with individual scripts demonstrating specific technical concepts. Each script can be executed independently to observe its functionality.
+
+---
+
+### 1. Data Pre-processing
+
+**Script:** `scripts/preprocess_weather_data.py`
+
+**Purpose:**  
+Reads meteorological data and performs normalization.
+
+**Execution:**  
+```bash
+python scripts/preprocess_weather_data.py
+```
+
+### 2. AI Model Structure
+
+**Script:** `models/simple_ignition_model.py`
+
+**Purpose:**  
+Defines a simple neural network architecture for wildfire ignition prediction.
+
+**Execution:**  
+```bash
+python models/simple_ignition_model.py
+```
+
+### 3. Verifiable Computation (Proof of Integrity)
+
+**Script:** `proofs/data_integrity_hash.py`
+
+**Purpose:**  
+Demonstrates cryptographic hashing to verify data integrity.
+
+**Execution:**  
+```bash
+python proofs/data_integrity_hash.py
+```
+
+
+
